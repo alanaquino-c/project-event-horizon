@@ -1,0 +1,14 @@
+
+{
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2048m -Xms256m",
+    "java.server.launchMode": "Standard",
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.autobuild.enabled": true,
+    "java.debug.settings.forceBuildBeforeLaunch": true
+}
