@@ -1,11 +1,14 @@
 package Elementos;
 
-public abstract class ElementoMovil extends ElementoGrafico{
+import uwcse.animation.Prop;
+import uwcse.graphics.*;
+
+public abstract class ElementoMovil extends ElementoGrafico implements Prop{
     
     // nuevos atributos para hacer avanzar a los objetos
     protected double velX, velY;
     
-    public ElementoMovil(double x, double y, double velX, double velY){
+    public ElementoMovil(int x, int y, double velX, double velY){
         super(x,y);
         this.velX = velX;
         this.velY = velY;

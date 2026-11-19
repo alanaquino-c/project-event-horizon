@@ -1,5 +1,5 @@
 package Elementos;
 
-public class Espacio {
+public class Estrellas {
     
 }
