@@ -1,3 +1,6 @@
 # Archivos compilados
 bin/
 *.class
+# configs
+.gitignore
+.vscode

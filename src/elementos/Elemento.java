@@ -74,8 +74,8 @@ public abstract class Elemento {
 
     // mueve todas las piezas con moveBy
     public void moverPor(int dx, int dy) {
-        x =+ dx;
-        y =+ dy;
+        x += dx;
+        y += dy;
         for (int i = 0; i < piezas.size(); i++) {
             piezas.get(i).moveBy(dx, dy);
         }
